@@ -1,0 +1,5 @@
+[user]
+	name = ngmorrow1029
+	email = nickgmorrow@gmail.com
+[core]
+	sshComman = "ssh -i ~/.ssh/nick_rsa"

@@ -1,0 +1,5 @@
+[user]
+	name = Piedesert
+	email = piedesert@gmail.com
+[core]
+	sshComman = "ssh -i ~/.ssh/pie_rsa"

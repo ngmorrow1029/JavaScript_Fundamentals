@@ -1,0 +1,17 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[includeIf "gitdir:C:/Users/nickg/Documents/Git/"]
+	path = ./.gitconfig-nick
+[includeIf "gitdir:C:/Users/nickg/Documents/Git/"]
+	path = ./.gitconfig-pie
+[user]
+	name = ngmorrow1029
+	email = nickgmorrow@gmail.com
+[credential]
+	useHttpPath = true
+[core]
+	editor = code
+	sshComman = C:/Windows/System32/OpenSSH/ssh.exe
